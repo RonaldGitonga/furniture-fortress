@@ -23,7 +23,7 @@ const FeaturesSecond = () => {
 
       {/* {image} */}
       <div className='flex-1 order-1 lg:-order-1'>
-        <Image src={image.type}/>
+        <Image src={image.type} alt='features-second'/>
       </div>
    
     </div>

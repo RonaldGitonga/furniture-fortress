@@ -15,7 +15,7 @@ const Features = () => {
 
     {/* {image} */}
     <div className='flex-1 order-1 lg:-order-1 '>
-      <Image src={image.type} />
+      <Image src={image.type} alt='feature'/>
     </div>
     {/* {text} */}
     <div className='flex-1 flex flex-col justify-end '>
@@ -27,7 +27,7 @@ const Features = () => {
 
           const{title,subtitle,icon}=item
           return(
-            <div className='flex mb-6 lg:last:mb-0'>
+            <div className='flex mb-6 lg:last:mb-0' key={index}>
               <div className='text-2xl mr-4 lg:text-3xl'>{icon}</div>
               <div>
                 <h4 className='text-base lg:text-xl font-semibold mb-3'>{title}</h4>

@@ -39,7 +39,7 @@ const {pages}=products;
                 <div className="w-full max-w-[290px] h-[380px] text-left" key={index}>
                   <div className=" border hover:border-accent rounded-[18px] w-full max-w-[285px] h-full
                   max-h-[292px] flex items-center justify-center mb-[15px] relative transition">
-                    <Image src={image.type} width={200}  quality={80}/>
+                    <Image src={image.type} width={200}  quality={80} alt='products'/>
                     <div className='absolute bottom-4 right-[22px] bg-gray-200 w-8 h-8 rounded-full
                     flex justify-center items-center cursor-pointer hover:bg-gray-400 transition'>
                     <HiPlus className="text-xl text-primary"/>
